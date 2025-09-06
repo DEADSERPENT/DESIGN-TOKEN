@@ -1,0 +1,24 @@
+{
+  "name": "design-tokens-exporter",
+  "version": "1.0.0",
+  "description": "Export design tokens from Figma styles to JSON format",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "figma",
+    "design-tokens",
+    "export",
+    "json",
+    "css",
+    "variables"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.117.0",
+    "typescript": "^4.9.5"
+  }
+}
